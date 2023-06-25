@@ -1,12 +1,14 @@
 terraform {
 
-#  cloud {
-#    organization = "peakworksng"
-#
-#    workspaces {
-#      name = "learn-terraform-cloud"
-#    }
-#  }
+  /*
+  cloud {
+    organization = "peakworksng"
+
+    workspaces {
+      name = "learn-terraform-cloud"
+    }
+  }
+  */
 
   required_providers {
     aws = {
